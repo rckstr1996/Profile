@@ -33,6 +33,5 @@ jobs:
             sudo apt-get -y update
             sudo apt-get install nginx
             sudo systemctl service nginx start
-            sudo service nginx start
             cd home
             sudo mv * /var/www/html/
